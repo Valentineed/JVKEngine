@@ -1,0 +1,1 @@
+tt = Character:new()
