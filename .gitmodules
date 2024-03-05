@@ -1,0 +1,6 @@
+[submodule "libMaths"]
+	path = libMaths
+	url = ssh://git@github.com:Valentineed/libMaths.git
+[submodule "libphys"]
+	path = libphys
+	url = ssh://git@github.com:Valentineed/libphys.git
