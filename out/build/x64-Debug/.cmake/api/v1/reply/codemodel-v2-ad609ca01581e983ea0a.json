@@ -1,0 +1,201 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libgfx",
+					"jsonFile" : "directory-libgfx-Debug-2856bee05d62ec94d05a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libgfx",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libphys",
+					"jsonFile" : "directory-libphys-Debug-94680e54fb9be6a8e4ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libphys",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libMaths",
+					"jsonFile" : "directory-libMaths-Debug-5391bed848e1c8d7246d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libMaths",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "libsound",
+					"jsonFile" : "directory-libsound-Debug-a5ffdfcf337fdb926f13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libsound",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "EngineEditor",
+					"jsonFile" : "directory-EngineEditor-Debug-669b679b8d237244da8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EngineEditor",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ToolsEngine",
+					"jsonFile" : "directory-ToolsEngine-Debug-51c3f838c9a474ace03c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ToolsEngine",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "JVKEngine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "Engine::@7a1133e714ec08381be2",
+					"jsonFile" : "target-Engine-Debug-1dc13d802a0d76516595.json",
+					"name" : "Engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ToolsEngine::@59a543dabf22f5bbbd2d",
+					"jsonFile" : "target-ToolsEngine-Debug-6400e45bdb2024177ef1.json",
+					"name" : "ToolsEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libMaths::@6e3c28dbfeb116901f03",
+					"jsonFile" : "target-libMaths-Debug-98f0023b8b5ef45b19d5.json",
+					"name" : "libMaths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libgfx::@dd8d444036d8ef380a1f",
+					"jsonFile" : "target-libgfx-Debug-40a922124efe37524d90.json",
+					"name" : "libgfx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libphys::@f2f7a7682bdc435ad76f",
+					"jsonFile" : "target-libphys-Debug-75b5065a64b4a039ad00.json",
+					"name" : "libphys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libsound::@5c44b38d11a6ff704bdf",
+					"jsonFile" : "target-libsound-Debug-b54cb9199e73ffea27c3.json",
+					"name" : "libsound",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/JVKEngine/out/build/x64-Debug",
+		"source" : "D:/JVKEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -9,8 +9,6 @@ sources/Core/GFXAPI.cpp
 sources/Core/GFXAPI.h
 sources/Core/SwapChain.cpp
 sources/Core/SwapChain.h
-sources/Debug/Debug.cpp
-sources/Debug/Debug.h
 sources/DescriptorBindFrag.h
 sources/DescriptorBindVert.h
 sources/Descriptors.cpp
